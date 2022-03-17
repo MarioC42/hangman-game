@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+* {
+  margin: 10px 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Press Start 2P", sans-serif;
+}
+body {
+  text-align: center;
+  align-items: center;
+  background-color: black;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+h1 {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 10px;
+}
+
+.score {
+  float: left;
+  color: white;
+}
+
+.score h2 {
+  font-size: 1rem;
+}
+
+.img {
+  text-align: center;
+}
+
+p {
+  color: white;
+}
+#hint {
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  padding: 5px;
+  max-width: 150px;
+  width: 150px;
+  background-color: gray;
+  color: white;
+}
+
+.hint-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hint-text {
+  width: 500px;
+  align-self: center;
+  text-align: center;
+  margin: 10px 0px;
+}
+#answer {
+  display: flex;
+}
+
+.correctLetter {
+  border-bottom: 3px solid white;
+  width: 20px;
+  margin: 0 3px;
+  color: white;
+}
+
+#letters--container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 550px;
+}
+
+.btn {
+  margin: 10px 10px;
+  width: 40px;
+  height: 40px;
+  background-color: gray;
+  border: 2px dotted white;
+  color: white;
+  font-size: 1.4rem;
+  text-align: center;
+}
